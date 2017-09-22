@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maze</title>
+</head>
+<body>
+<script>
+    for (var line=1; line<37; line++) {
+        for(var i=1;i<72;i++) {
+            var s = (Math.floor((Math.random()*2)%2)) ? "╱" : "╲";
+            document.write(s);
+        }
+        document.writeln("<br>");
+    }
+</script>
+</body>
+</html>
